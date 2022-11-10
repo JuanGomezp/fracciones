@@ -6,25 +6,11 @@ class Fraction():
     denominator = 0
     #Fin Atributos#
 
-
-
-
-
-
-
-
     #Constructor#
     def __init__(self,numerator,denominator):
         self.numerator = numerator
         self.denominator = denominator
     #Fin Constructor#
-
-
-
-
-
-
-
 
 
 
@@ -57,7 +43,6 @@ class Fraction():
             numerator = self.numerator - a1.numerator
             print("\nEl resultado de la resta:",numerator,"/",self.denominator)
 
-
 #Iniciar variables
 numerator_1 = 0
 numerator_2 = 0
@@ -66,10 +51,6 @@ denominator_2 = 0
 frac_1 = 0
 frac_2 = 0
 opcion = 0
-
-
-
-
 
 
 
@@ -83,10 +64,6 @@ numerator_2 = int(input("Numerador fraccion B: "))
 while(denominator_2 == 0):
     denominator_2 = int(input("Denominador fraccion B: "))
     if(denominator_2!=0):
-
-
-
-
 
 #Variables
 frac_1 = Fraction(numerator_1, denominator_1)
